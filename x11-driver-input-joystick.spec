@@ -1,5 +1,5 @@
 Name: x11-driver-input-joystick
-Version: 1.1.1
+Version: 1.2.0
 Release: %mkrel 1
 Summary: X.org input driver for joysticks
 Group: System/X11
@@ -39,5 +39,6 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_libdir}/xorg/modules/input/joystick_drv.la
 %{_libdir}/xorg/modules/input/joystick_drv.so
+%_mandir/man4/*
 
 
