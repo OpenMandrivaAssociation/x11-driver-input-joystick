@@ -3,7 +3,6 @@ Version: 1.3.0
 Release: %mkrel 3
 Summary: X.org input driver for joysticks
 Group: System/X11
-
 ########################################################################
 # git clone git://git.mandriva.com/people/pcpa/xorg/drivers/xf86-input-joystick xorg/drivers/xf86-input-joystick
 # cd xorg/drivers/xf86-input/joystick
@@ -36,6 +35,7 @@ autoreconf -ifs
 %install
 rm -rf %{buildroot}
 %makeinstall_std
+rm -f %{buildroot}/%{_libdir}/xorg/modules/input/*.la
 
 %clean
 rm -rf %{buildroot}
