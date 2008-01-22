@@ -1,8 +1,6 @@
-%define debug_package	%{nil}
-
 Name: x11-driver-input-joystick
 Version: 1.3.1
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: X.org input driver for joysticks
 Group: System/X11
 ########################################################################
