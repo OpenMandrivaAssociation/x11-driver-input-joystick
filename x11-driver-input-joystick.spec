@@ -35,4 +35,4 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_libdir}/xorg/modules/input/joystick_drv.la
 %{_libdir}/xorg/modules/input/joystick_drv.so
-%_mandir/man4x/*
+%_mandir/man4/*
