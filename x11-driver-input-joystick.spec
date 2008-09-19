@@ -21,7 +21,7 @@ Joystick is an X.org input driver for joysticks.
 %setup -q -n xf86-input-joystick-%{version}
 
 %build
-%configure
+./configure --prefix=/usr
 %make
 
 %install
