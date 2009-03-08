@@ -21,15 +21,20 @@ Joystick is an X.org input driver for joysticks.
 %setup -q -n xf86-input-joystick-%{version}
 
 %build
-./configure --prefix=/usr
+%configure2_5x --prefix=/usr
 %make
 
 %install
 rm -rf %{buildroot}
 %makeinstall_std
 
+#(eandry) remove devel file, create a devel package if needed
+rm -rf %{buildroot}%{_includedir}/xorg/*.h
+rm -rf %{buildroot}%{_libdir}/pkgconfig/*.pc
+
 %clean
 rm -rf %{buildroot}
+
 
 %files
 %defattr(-,root,root)
