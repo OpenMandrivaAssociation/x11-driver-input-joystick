@@ -1,6 +1,6 @@
 Name: x11-driver-input-joystick
 Version: 1.5.0
-Release: %mkrel 4
+Release: %mkrel 5
 Summary: X.org input driver for joysticks
 Group: System/X11
 URL: http://xorg.freedesktop.org
