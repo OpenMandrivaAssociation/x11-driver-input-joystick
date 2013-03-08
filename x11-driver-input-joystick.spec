@@ -6,7 +6,7 @@ Group:		System/X11
 URL:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-input-joystick-%{version}.tar.bz2
 License:	MIT
-
+Patch0:		xf86-input-joystick-1.6.2-link-against-xi.patch
 BuildRequires:	x11-proto-devel >= 1.0.0
 BuildRequires:	x11-server-devel >= 1.0.1
 BuildRequires:	x11-util-macros >= 1.0.1
@@ -21,6 +21,7 @@ Joystick is an X.org input driver for joysticks.
 
 %prep
 %setup -qn xf86-input-joystick-%{version}
+%apply_patches
 
 %build
 %configure2_5x --prefix=/usr
