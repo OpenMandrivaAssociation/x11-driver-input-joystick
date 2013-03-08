@@ -24,6 +24,7 @@ Joystick is an X.org input driver for joysticks.
 %apply_patches
 
 %build
+autoreconf -fiv
 %configure2_5x --prefix=/usr
 %make
 
