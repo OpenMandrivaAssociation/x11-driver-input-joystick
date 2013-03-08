@@ -10,6 +10,7 @@ License:	MIT
 BuildRequires:	x11-proto-devel >= 1.0.0
 BuildRequires:	x11-server-devel >= 1.0.1
 BuildRequires:	x11-util-macros >= 1.0.1
+BuildRequires:	pkgconfig(xi)
 
 Requires:	x11-server-common %(xserver-sdk-abi-requires xinput)
 
