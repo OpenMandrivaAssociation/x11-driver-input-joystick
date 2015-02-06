@@ -1,6 +1,6 @@
 Name:		x11-driver-input-joystick
 Version:	1.6.2
-Release:	11
+Release:	12
 Summary:	X.org input driver for joysticks
 Group:		System/X11
 URL:		http://xorg.freedesktop.org
