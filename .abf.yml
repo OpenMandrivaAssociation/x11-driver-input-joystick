@@ -1,5 +1,2 @@
----
-removed_sources:
-  xf86-input-joystick-1.6.1.tar.bz2: 0712652ec6cdb2fca6ad888548b232a4de9cf580
 sources:
-  xf86-input-joystick-1.6.2.tar.bz2: 61658b8d829fdaed6064c7c26232c3884d359187
+  xf86-input-joystick-1.6.3.tar.bz2: b8664249d50ed266556877e15e3782c40614459c
