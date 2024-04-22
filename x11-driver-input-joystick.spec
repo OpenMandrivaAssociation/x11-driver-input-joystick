@@ -1,10 +1,12 @@
+%global optflags %{optflags} -Wno-error -Wno-implicit-function-declaration
+
 Name:		x11-driver-input-joystick
-Version:	1.6.3
-Release:	4
+Version:	1.6.4
+Release:	1
 Summary:	X.org input driver for joysticks
 Group:		System/X11
-URL:		http://xorg.freedesktop.org
-Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-input-joystick-%{version}.tar.bz2
+URL:		https://xorg.freedesktop.org
+Source0:	https://xorg.freedesktop.org/releases/individual/driver/xf86-input-joystick-%{version}.tar.xz
 License:	MIT
 Patch0:		xf86-input-joystick-1.6.2-link-against-xi.patch
 BuildRequires:	x11-proto-devel >= 1.0.0
