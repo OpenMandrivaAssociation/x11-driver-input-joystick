@@ -9,6 +9,11 @@ URL:		https://xorg.freedesktop.org
 Source0:	https://xorg.freedesktop.org/releases/individual/driver/xf86-input-joystick-%{version}.tar.xz
 License:	MIT
 Patch0:		xf86-input-joystick-1.6.2-link-against-xi.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	x11-proto-devel >= 1.0.0
 BuildRequires:	x11-server-devel >= 1.18
 BuildRequires:	x11-util-macros >= 1.0.1
